@@ -1,0 +1,45 @@
+/* services styling */
+.services{
+    margin: 0 1rem 0 1rem;
+}
+.services>*{
+    display: block;
+    margin-bottom: 1rem;
+}
+.services > p {
+    padding: 2rem;
+    margin: auto;
+    text-align: center;
+}
+.services > img {
+    max-width: 75%;
+    margin: auto;
+    filter: grayscale(100%);
+    max-height: 30vh;
+}
+
+/*preview styling */
+.preview>p{
+    margin-left:2em;
+}
+
+.container {
+    text-align: center;
+    width:100%;
+    margin: auto;
+}
+
+.projects{
+    display : flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+
+}
+/* service styling */
+.people {
+    display:flex;
+    flex-wrap: wrap;
+    margin: 1rem 0 1rem 0;
+    justify-content: space-between;
+}

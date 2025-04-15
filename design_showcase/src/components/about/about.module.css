@@ -1,0 +1,167 @@
+/* about styling */
+.about, .about>* {
+    text-align: center;
+}
+
+.title {
+    height: min-content;
+    min-width: 32%;
+}
+
+.collection {
+    display: flex;
+    justify-content: space-between;
+    margin: 1em;
+}
+.side{
+    margin: 1em;
+}
+.article {
+    text-align: left;
+    margin: 1em;
+}
+
+.statement {
+    text-align: left;
+    
+}
+.image {
+    filter: grayscale(100%);
+    width:100%;
+    margin: auto;
+}
+.news {
+    display: flex;
+    margin-bottom: 1em;
+}
+.news>*{
+    width: 50%;
+}
+/* services styling */
+
+.service {
+    margin-bottom: 1rem;
+    text-align: left;
+    text-wrap: wrap;
+}
+
+/* team styling */
+.team {
+    display:flex;
+    flex-wrap: wrap;
+    margin: 1rem;
+    justify-content: space-between;
+}
+/* person preview styling */
+.name{
+    margin-bottom: .25em;
+}
+.previewInfo{
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.photoContainer{
+    filter: grayscale(100%);
+    flex:1 1 auto;
+    overflow: hidden;
+    margin-right: .25em;
+}
+
+.photo {
+    object-fit: cover;
+    object-position: center;
+}
+
+/* person styling */
+.profile > .image{
+    margin: auto;
+    max-width: 30vh;
+}
+.person {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    flex-wrap: wrap;
+    height: 100%;
+    max-height: 100vh;
+    max-width: 500px;
+    margin: auto;
+}
+.details {
+    text-align: left;
+    max-width: 30rem;
+}
+td {
+    vertical-align: top ;
+
+}
+
+/* small screen styling */
+@media only screen and (max-width: 450px){
+
+    .preview {
+        width: 45%;
+        margin: .5em;
+    }
+    .side > .article{
+        margin: 0;
+    }
+
+    .image {
+        margin-bottom: 1em;;
+    }
+    .photoContainer{
+        overflow: hidden;
+        width: 3.12em;
+        max-width: 3.12em;
+        min-width: 3.12em;
+    }
+
+    .services {
+        margin-left: 1rem;
+    }
+    .title{
+        flex: 2;
+    }
+    .statement {
+        flex:3;
+    }
+}
+
+/* large screen styling */
+@media only screen and (min-width: 450px){
+
+    .article>p {
+        max-width: 45vw;
+        text-wrap: wrap;
+    }
+    .preview {
+        width: 15em;
+        margin: .5em;
+    }
+
+    .image {
+        max-width: 47vw;
+    }
+
+    .photoContainer{
+        overflow: hidden;
+        width: 5em;
+        max-width: 5em;
+        min-width: 5em;
+    }
+    .articleTitle {
+      float: left;
+      margin: 1vw 1vw 0vw 0vw;
+    }
+
+    .side {
+        text-align: left;
+    }
+    .services {
+        margin-top: 1rem;;
+        margin-left: 5rem;
+    }
+}
