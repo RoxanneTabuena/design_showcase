@@ -77,7 +77,7 @@ export const landscape_dic = {
     '11th Street Home' : eleventh_st,
     'Evergreen Village Square' : evergreen_village_square,
     'California Govenors Mansion' : govenors_mansion,
-    'Hayes Mansion' : hayes_mansion_1,
+    'Hayes Mansion' : hayes_mansion_2,
     'Peralta House' : peralta_house,
     'st Josef Cathedral' : saint_josef_1,
     'San Jose Museum of Art' : san_jose_moa,
