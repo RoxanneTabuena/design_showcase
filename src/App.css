@@ -28,7 +28,7 @@ ol[role='list'] {
 
 /* Set core body defaults */
 body {
-  min-height: 100%;
+  height: calc(var(--vh, 1vh) * 100);
   max-width: 1050px;
   margin: auto;
   background-color: white;
