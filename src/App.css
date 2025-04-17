@@ -33,6 +33,8 @@ body {
   margin: auto;
   background-color: white;
   /* line-height: 1.5; */
+  bottom: env(safe-area-inset-bottom, 0); /* Adjust for safe areas */
+
 }
 
 /* Set shorter line heights on headings and interactive elements */
