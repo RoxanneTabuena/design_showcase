@@ -12,7 +12,7 @@ export const Person = () =>{
     const person = team_info_dic[id]
     const profile = (
         <div className={style.profile}>
-            <img className={style.image} src={team_photo_dic[id].img} alt={team_photo_dic[id].cap}></img>
+            <img src={team_photo_dic[id].img} alt={team_photo_dic[id].cap}></img>
             <p>{person.summary}</p>
         </div>
     )

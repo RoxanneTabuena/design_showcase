@@ -1,30 +1,25 @@
 .contact {
-    max-width: 600px;
-    margin: 1em auto;
+    margin: auto;
     text-align: center;
+    padding: 1em;
+}
+.center {
+    margin: auto;
+    max-width: 10em;;
 }
 
 .side {
     display: flex;
     justify-content: space-between;
-}
-
-
-.message {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    z-index: 1;
-}
-
-.call > .side {
-    width: 8em;
+    /* max-width: 12em; */
+    align-items: center;
     margin: auto;
 }
 
 input {
     border: black .08em;
     border-style: none none solid none;
+    width: 90%;
 }
 
 form {
@@ -88,9 +83,14 @@ button:hover {
 }
 
 textarea {
-    margin: .5em auto;
-    width: 90%;
     resize: none;
+    width: 90%;
+}
+
+.form {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
 }
 
 #email>input {
@@ -99,7 +99,7 @@ textarea {
 
 .title {
     opacity: 60%;
-    padding-bottom: 1em;
+    padding-bottom: .5em;
 }
 
 .alert {
@@ -115,4 +115,51 @@ textarea {
 
 .alert >p{
     margin: 1em;
+}
+
+.image {
+    max-width: 80%;
+    filter: grayscale(100%);
+    margin: 1em auto;
+}
+
+.info {
+    justify-content: space-between;
+}
+
+.optional{
+    max-width: 50%;
+}
+
+.landscape {
+    max-width: 12em;
+    margin-bottom: 2em;
+}
+
+/* small screen styling */
+@media only screen and (max-width: 450px){
+
+}
+
+/* large screen styling */
+@media only screen and (min-width: 450px){
+    .contact {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .info {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        max-height: 300px;;
+    }
+    /* .info>div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 70%;
+    } */
 }

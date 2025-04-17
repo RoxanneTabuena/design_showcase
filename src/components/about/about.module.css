@@ -74,7 +74,7 @@
 }
 
 /* person styling */
-.profile > .image{
+.profile > img{
     margin: auto;
     max-width: 30vh;
 }

@@ -587,7 +587,7 @@ stucco_and_brick_veneer_siding: {
     'jack_idris', 
     'oscar_kimani']
 },
-historic_window_and_door_replacement: {
+historic_windows_and_doors: {
     service: "Historic Window and Door Replacement",
     summary: "Preserve your home’s character while improving energy efficiency with custom replicas of historic windows and doors.",
     associated_people: [

@@ -47,6 +47,7 @@ import oscar_kimani from "../assets/photos/team/kimani.jpeg"
 
 import workshop from '../assets/photos/about/workshop.jpeg'
 import founders from '../assets/photos/about/founders.jpeg'
+import contact from '../assets/photos/about/contact.jpeg'
 
 import bathroom_remodel from '../assets/photos/services/bathroom_remodel.jpg'
 import full_home_remodel from '../assets/photos/services/full_home_remodel.jpg'
@@ -196,6 +197,8 @@ export const team_photo_dic = {
 export const about_photo_dic = {
     workshop :{img: workshop, cap: 'workshop'},
     founders : {img: founders, cap: 'founders'},
+    contact: {img:contact, cap: 'contact'}
+
 }
 
 export const service_photo_dic = {
@@ -210,7 +213,7 @@ export const service_photo_dic = {
     adu_development: { img: adu_development, cap: "adu development" },
     re_roofing: { img: re_roofing, cap: "re-roofing" },
     stucco_and_brick_veneer_siding: { img: stucco_and_brick_veneer_siding, cap: "stucco and brick veneer siding" },
-    historic_window_and_door_replacement: { img: historic_window_and_door_replacement, cap: "historic window and door replacement" },
+    historic_windows_and_doors: { img: historic_window_and_door_replacement, cap: "historic window and door replacement" },
     structural_upgrades: { img: structural_upgrades, cap: "structural upgrades" },
     wall_upgrade: { img: wall_upgrade, cap: "wall upgrade" },
     foundation_upgrade: { img: foundation_upgrade, cap: "foundation upgrade" },
