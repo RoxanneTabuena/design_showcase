@@ -31,13 +31,6 @@ header{
     overflow: hidden;
 }
 
-.main{
-    height: 73vh;
-    max-height: 73vh;
-    overflow: scroll;
-    background-color: white;
-}
-
 .welcome{
     overflow: hidden;
 }
@@ -123,6 +116,13 @@ footer > div > .center{
         width: 22vw;
     }
 
+    .main{
+        height: 83vh;
+        max-height: 83vh;
+        overflow: scroll;
+        background-color: white;
+    }
+    
 }
 /* desktop rules */
 @media only screen and (min-width: 481px) {
@@ -145,4 +145,12 @@ footer > div > .center{
         width: 14vw;
         max-width: 10em;
     }
+
+    .main{
+        height: 73vh;
+        max-height: 73vh;
+        overflow: scroll;
+        background-color: white;
+    }
+    
 }
