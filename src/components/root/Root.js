@@ -69,7 +69,10 @@ export const Root = () => {
                     <Outlet context={[orientation]}/>
                 )}
             </div>
+            { 
+            orientation === 'landscape' &&
             <Footer />
+            }
         </div>
     )
 }
